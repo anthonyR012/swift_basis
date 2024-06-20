@@ -97,7 +97,7 @@ for name in names[1...] {
 }
 
 let range = ...5
-//range from 10  15
+//range from 10  15va
 
 for idx in 10...15{
     print(idx)

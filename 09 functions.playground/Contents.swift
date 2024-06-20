@@ -101,7 +101,7 @@ mean(1,2,3,4,5)
 mean(5,5,1,56,1,4,4,5,2)//now the function can received several parameters of numbers
 
 
-func mediaGeometrica(_ numbers: Double...) -> Double{
+func mediaGeometrica(_ numbers: Double...) -> Double{ //here example of variadcs
     var total: Double = 1
     for number in numbers {
         total *= number

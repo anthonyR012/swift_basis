@@ -16,6 +16,11 @@ var reversedName = names.sorted(by: backward)
 
 reversedName
 
+var stringValue = "Hola string"
+
+let index = stringValue.index(before: stringValue.endIndex)
+stringValue.remove(at: index)
+stringValue
 
 /* closure
  { *(params) -> type in
